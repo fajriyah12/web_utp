@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RIRI'S PORTOFOLIO</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+
+  <!-- Internal CSS from main.css -->
+  <style>
+    body {
+      min-height: 100vh;
+      background-color: rgba(248, 217, 188, 0.85);
+      padding: 80px 0;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .hero-section {
+      font-family: 'Inter', sans-serif;
+      background-image: url('background2.jpg'); /* Ganti dengan nama file gambar background kamu */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: #333;
+      
+    }
+
+    .about-section {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 60px 20px;
+    }
+
+    .custom-btn {
+      background-color: #222;
+      color: #fff;
+      padding: 10px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .custom-btn:hover {
+      background-color: #222;
+      color: #fff;
+      padding: 10px 25px;
+    }
+
+    .about-heading {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .about-paragraphs p {
+      margin-bottom: 1rem;
+    }
+
+    .img-fluid {
+      border-radius: 20px;
+    }
+
+    footer {
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+    .navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #333;
+  text-transform: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #9c6f4f; /* warna aksen hangat, bisa diganti sesuai tema kamu */
+  text-decoration: none;
+}
+
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4">
+    <div class="container">
+      <a class="navbar-brand" href="#">RIRI'S</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">SERVICES</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section d-flex align-items-center" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="pretty.jpg" class="img-fluid main-img" alt="Riri smiling" />
+        </div>
+        <div class="col-md-6">
+          <h1 class="display-5 fw-bold">Hai I'm RIRI.</h1>
+          <p>As a designer and stylist, I shape spaces and styles that speak quietly, yet deeply. Every detail is a brushstroke in a story, carefully chosen to create harmony between beauty and function.</p>
+          <p>Let’s design with intention, and style with soul.</p>
+          <a href="#services" class="btn custom-btn mt-3">SEE THE SERVICES</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="about-heading">About Me,</h2>
+          <div class="about-paragraphs">
+            <p>I believe that good design isn’t just about what you see, but how it makes you feel—quietly, deeply, sincerely...</p>
+            <p>Di setiap karya, aku mencoba untuk menciptakan harmoni antara estetika dan kenyamanan—di mana setiap detail memiliki cerita...</p>
+            <p>This is a space where passion meets precision...</p>
+            <p>Let’s create stories that linger—softly, beautifully, truly.</p>
+          </div>
+          <a href="#services" class="btn custom-btn mt-4">SEE THE SERVICES</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" style="text-align: center; padding: 60px 20px; background-color: #f9f9f9;">
+    <h2 style="font-size: 32px; font-weight: bold; margin-bottom: 40px;">My Services</h2>
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px;">
+      <div style="max-width: 300px;">
+        <h3 style="font-size: 24px; font-weight: bold;">Personal Styling</h3>
+        <p style="font-size: 16px; color: #333;">Helping you discover your unique style identity...</p>
+      </div>
+      <div style="max-width: 300px;">
+        <h3 style="font-size: 24px; font-weight: bold;">Fashion Design</h3>
+        <p style="font-size: 16px; color: #333;">Creating custom fashion pieces that express individuality...</p>
+      </div>
+      <div style="max-width: 300px;">
+        <h3 style="font-size: 24px; font-weight: bold;">Creative Direction</h3>
+        <p style="font-size: 16px; color: #333;">Styling for photo shoots, branding campaigns...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h2>My Portfolio</h2>
+          <p class="mb-4">Some of my latest works that showcase my creativity and process.</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4"><img src="fashion.jpg" class="img-fluid rounded" alt="work1" /></div>
+        <div class="col-md-4"><img src="design.jpg" class="img-fluid rounded" alt="work2" /></div>
+        <div class="col-md-4"><img src="creative.jpg" class="img-fluid rounded" alt="work3" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h2>Contact</h2>
+          <p class="mb-4">Ready to work together? Let’s chat about your project.</p>
+          <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a href="mailto:fajriyahi183@gmai.com" class="btn custom-btn" target="_blank"><i class="fas fa-envelope"></i> Email Me</a>
+            <a href="https://www.instagram.com/1210.ngel" class="btn custom-btn" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.tiktok.com/@1210.er" class="btn custom-btn" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+            <a href="https://locket.camera/links/b28WxRQ1DxERhuNp9" class="btn custom-btn" target="_blank"><i class="fas fa-camera-retro"></i> Locket</a>
+            <a href="https://open.spotify.com/user/zi4u5z4l4pco4hnosoe6vqm6q" class="btn custom-btn" target="_blank"><i class="fab fa-spotify"></i> Spotify</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center text-muted">
+    <small>&copy; 2025 Riri's portofolio. All rights reserved.</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
